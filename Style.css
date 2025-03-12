@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h6 {
+
+    color: #d8d8d8; 
+}
+button{
+    font-size: 0.8rem;
+    font-weight: 700;
+    outline:none;
+    border:none;
+    background-color: #100f0f;
+    color: rgb(233, 106, 21);
+    cursor: pointer;
+    padding: 13px 30px;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+
+}
+button:hover {
+    background-color: #3a3a3a;
+}
+
+hr {
+    width:30px;
+    height:2px;
+    background-color: coral;
+
+    .star i{
+       font-size: 0.8rem;
+       color: goldenrod;
+    }
+
+    
+}
+.navbar{
+    font-size: 16px;
+    top: 0%;
+    left: 0%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    padding: 0 20px;
+    color: rgb(3, 3, 3);
+    transition: 0.3s ease ;
+
+}
+.navbar-light .navbar-nav .nav-link:hover,
+
+.navbar-light .navbar-nav .nav-link.active{
+    color:coral;
+
+}
+.navbar i{
+    font-size: 1.2rem;
+    padding: 0 7px;
+    cursor:pointer;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+#home{
+    background-image:url(img/img/back.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size:cover;
+    background-position: top center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+
+}
+
+
+
+
+#Home span{
+    color:coral;
+
+}
+
+#new .one img {
+    width:100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+#new .one .details {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+   top: 0;
+   left: 0%;
+   transition: 0.3s ease;
+
+}
+#new .one:hover .details {
+    cursor: pointer;
+    background-color: rgba(245, 178, 178, 0.7);
+}
+#new .one .details button{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+    background: none;
+    text-transform: uppercase;
+    border-bottom: 1px  solid #2a2a2a;
+    padding: 2.5px;
+    transform: translate(70px);
+    transition: 0.3s ease;
+
+}
+#new .one .details button:hover{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+#new .one:nth-child(1) .details {
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: flex-start;
+     text-align: start;
+} 
+#new .one:nth-child(2) .details {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+#new .one:nth-child(3) .details {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: end;
+}
+
+.product {
+    cursor:pointer;
+    margin-bottom: 2rem;
+
+}
+
+.product img {
+    transition: 0.3s all;
+}
+ 
+.product:hover img{
+opacity: 0.7;
+}
+.product .buy-btn {
+    background-color: coral;
+    transform: translate(20px);
+    opacity:0;
+    transition: 0.3s all;
+}
+
+.product:hover .buy-btn {
+    transform: translate(0);
+    opacity: 1;
+}
+
+#banner {
+   background-image: url("img/img/banner/2.jpg");
+    width: 100%;
+    height: 60vh;
+    background-size:cover;
+    background-position: top 70px center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+}
+#footer-one {
+    background-image: url("img/logo1.png");
+    width: 50%;
+    height:60vh;
+    background-position: left;
+}
+
+#banner h4{
+    color:#D8D8D8;
+}
+#banner h1{
+    color: #fff;
+}
+#banner button {
+background-color: black;
+}
+
+
+.star i {
+    color: goldenrod;
+}
+
+footer {
+    background-color: black;
+}
+
+footer h5 {
+    color: white;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+footer li {
+    padding-bottom: 4px;
+}
+footer li a{
+    font-size: 0.8rem;
+    color:#999;
+
+}
+footer li a:hover{
+    
+    color:#D8D8D8;
+    
+}
+footer p {
+    color:#999;
+    font-size: 0.8rem;
+}
+
+footer .copyright a {
+   color:#000;
+   width:38px;
+   height:38px;
+   background-color: #fff;
+   display: inline-block;
+   text-align:center;
+   line-height: 38px;
+   border-radius: 50%;
+   transition: 0.3s ease;
+   margin:0 5px;
+}
+footer .copyright a:hover {
+    color:#fff;
+    background-color: #fb774b;
+        
+}
